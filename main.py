@@ -6,7 +6,7 @@ from models import db, CandidateModel, PrimarySkillsModel, SecondarySkillsModel
 import json
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://admin:Cuckoo123@mariadb-1.cldbrv6wfk2y.ap-south-1.rds.amazonaws.com/hackathon'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://***/hackathon'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.secret_key = "***"
 
